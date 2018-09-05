@@ -1,0 +1,170 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+    .container{
+        width: 100%;
+        
+        height: 100%;
+
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .mainCol{
+        height: 100%;
+        width: 50%;
+        background-color:#4e598e;
+        margin-left: 25%;
+        margin-right: 25%;
+
+    }
+
+    .header{
+        padding: 1%;
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        width: auto;
+       
+    }
+
+    .bar{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        background-color: #6877c1; 
+
+    }
+
+    .button{
+        padding: 1%;
+        background-color: #6877c1;
+        color: white;
+        margin: auto;
+    }
+
+    .post{
+        
+        color: white;
+        
+        text-align: left;
+       
+        
+        display: inline-block;
+    }
+
+    .footer{
+        padding: 1%;
+        color: white;
+        margin: 1%;
+        font-size: 50%;
+        text-align: center;
+    }
+
+    .postForm{
+        color: white;
+
+    }
+
+    .postBox{
+        padding: 1%;
+        margin: auto;
+        
+    }
+
+    .postButton{
+        padding: 1%;
+        margin: 1%;
+        margin-left: 2%;
+        size: 200%;
+        text-align: center;
+        margin-top: 0,5%;
+    }
+
+    .textBlock{
+        color: white;
+        padding: 1%;
+        margin: 1%;
+        text-align: center;
+    }
+
+    .postTitle{
+        color: white;
+        padding: 1%;
+        margin: 1%;
+        text-align: center;
+        font-size: 150%;
+    }
+
+    .inputLine{
+        margin-top: 2%;
+        margin-bottom: 0.50%;
+    }
+
+    .contentDisplay{
+        overflow: auto;
+    }
+
+
+    .postBox{
+        display: flex;
+        
+    }
+
+    .listedPost {
+        padding: 1%;
+        margin: 1%;
+    }
+
+    .upDown{
+        display: block;
+        
+    }
+
+    .profileBox{
+        display: block;
+        margin: 1%;
+        padding: 1%;
+    }
+
+    .subHeader{
+        color: white;
+        padding: 0.25%;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+
+    .scrollButton{
+        display: inline-block;
+    }
+
+    .postScore{
+        color: white;
+        
+    }
+
+    .loginFormFrame{
+        text-align: center;
+        display: block;
+        padding: 1%;
+    }
+
+    .newPostBox{
+        text-align: center;
+        display: block;
+    }
+
+
+    
+
+
+}
